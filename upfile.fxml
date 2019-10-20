@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="696.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HELLOFX.UploadFileController">
+   <children>
+      <ImageView fitHeight="486.0" fitWidth="703.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@job-opening-large.gif" />
+         </image>
+      </ImageView>
+      <Separator layoutX="258.0" layoutY="452.0" prefWidth="200.0" />
+      <JFXButton fx:id="browse" layoutX="358.0" layoutY="253.0" onAction="#browse_file" prefHeight="40.0" prefWidth="63.0" style="-fx-background-color: #0078D7;" text="Browse" textFill="WHITE" />
+      <JFXButton fx:id="back_btn_" layoutX="604.0" layoutY="32.0" onAction="#back_clicked" style="-fx-background-color: #0078D7;" text="Back" />
+      <Label layoutX="287.0" layoutY="22.0" style="-fx-background-color: #FFFFFF;" text="Choose File">
+         <font>
+            <Font name="hooge 05_53" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="file_name" layoutX="204.0" layoutY="253.0" prefHeight="40.0" prefWidth="154.0" style="-fx-background-color: #123456;" text="No file Selected" textFill="WHITE" />
+      <JFXButton fx:id="next_btn" layoutX="285.0" layoutY="427.0" onAction="#next_page" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: #0078D7;" text="next" textFill="WHITE" />
+   </children>
+</AnchorPane>

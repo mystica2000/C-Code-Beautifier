@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HELLOFX.savepageController">
+   <children>
+      <ImageView fitHeight="555.0" fitWidth="723.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@2samsung-highfive.gif" />
+         </image>
+      </ImageView>
+      <JFXTextArea fx:id="final_box" editable="false" layoutX="14.0" layoutY="23.0" opacity="0.68" prefHeight="490.0" prefWidth="379.0" style="-fx-background-color: WHITE;" wrapText="true" />
+      <JFXButton fx:id="save_clicked" layoutX="516.0" layoutY="135.0" onAction="#save_btclieck" prefHeight="51.0" prefWidth="120.0" style="-fx-background-color: white;" text="Save">
+         <font>
+            <Font name="hooge 05_53" size="22.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="cancel_btn" layoutX="516.0" layoutY="358.0" onAction="#cancelclieck" prefHeight="51.0" prefWidth="134.0" style="-fx-background-color: white;" text="Cancel">
+         <font>
+            <Font name="hooge 05_53" size="22.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
