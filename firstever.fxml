@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HELLOFX.FirstPageController">
+   <children>
+      <ImageView fitHeight="518.0" fitWidth="687.0" pickOnBounds="true">
+         <image>
+            <Image url="@coding_desk_flat_vector_ui_ux_design_illustration_motion_animation_gif2.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="199.0" layoutY="23.0" prefHeight="45.0" prefWidth="329.0" text="C Beautifier" textFill="WHITE">
+         <font>
+            <Font name="hooge 05_53" size="39.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="combo1" layoutX="279.0" layoutY="346.0" prefHeight="25.0" prefWidth="149.0" promptText="Select Mode" style="-fx-background-color: PINK;" visibleRowCount="2" />
+      <JFXButton fx:id="go_next" layoutX="321.0" layoutY="451.0" onAction="#click_on_go" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #0078D7;" text="GO" textFill="WHITE">
+         <font>
+            <Font name="hooge 05_53" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
