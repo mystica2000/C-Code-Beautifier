@@ -11,7 +11,6 @@ Built with jdk 12
 SceneBuilder
 
 ![image](https://user-images.githubusercontent.com/45729256/67164017-a970e100-f393-11e9-8980-2d2bbdecdf34.png)
-After Choosing Type Code
 ![image](https://user-images.githubusercontent.com/45729256/67164021-b8f02a00-f393-11e9-9325-0af1b64a86ab.png)
 ![image](https://user-images.githubusercontent.com/45729256/67164038-d2917180-f393-11e9-8cd1-c067a43f7103.png)
 ![image](https://user-images.githubusercontent.com/45729256/67164043-da511600-f393-11e9-8743-c347d9608e96.png)
