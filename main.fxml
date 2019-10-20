@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="732.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HELLOFX.MainpageController">
+   <children>
+      <ImageView fitHeight="551.0" fitWidth="730.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@e3e18d9a63d6f62bda3ccab7c1588274.gif" />
+         </image>
+      </ImageView>
+      <JFXTextArea fx:id="input_box" layoutX="23.0" layoutY="47.0" opacity="0.79" prefHeight="472.0" prefWidth="298.0" style="-fx-background-color: #FFFFFF;" wrapText="true" />
+      <JFXTextArea fx:id="output_box" editable="false" layoutX="410.0" layoutY="47.0" opacity="0.79" prefHeight="472.0" prefWidth="298.0" style="-fx-background-color: #FFFFFF;" />
+      <JFXButton fx:id="beauty" layoutX="82.0" layoutY="557.0" onAction="#beauty_click" prefHeight="25.0" prefWidth="126.0" style="-fx-background-color: #0078D7; -fx-border-radius: 25px;" text="Beautify" textFill="WHITE">
+         <font>
+            <Font name="hooge 05_53" size="18.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="save" layoutX="510.0" layoutY="557.0" onAction="#save_click" prefHeight="25.0" prefWidth="126.0" style="-fx-background-color: #0078D7; -fx-border-radius: 25px;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="hooge 05_53" size="18.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="145.0" layoutY="21.0" text="INPUT" textFill="WHITE" />
+      <Label layoutX="556.0" layoutY="21.0" text="OUTPUT" textFill="WHITE" />
+   </children>
+</AnchorPane>
